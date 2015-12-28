@@ -11,6 +11,11 @@
     .jumbotron .h1, .jumbotron h1 {
         margin-top: 0;
     }
+    img.shield {
+        min-width: 110px;
+        min-height: 20px;
+        margin-right: 0.4em;
+    }
 }
 
 body {
