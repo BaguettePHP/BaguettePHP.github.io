@@ -1,8 +1,39 @@
+
+.jumbotron {
+    padding: 1px;
+    padding-bottom: 0;
+}
+
 @media screen and (min-width: 768px) {
     .jumbotron {
-        padding: 30px 15px;
+        padding: 5px;
     }
     .jumbotron .h1, .jumbotron h1 {
         margin-top: 0;
     }
+}
+
+body {
+    background-color: #FDD;
+}
+
+.jumbotron {
+    background-color: #FEE;
+}
+
+.jumbotron .page-header p:before {
+    content: "ξ ^ω^)ξ ";
+    margin-right: 3px;
+}
+
+.jumbotron .page-header:hover p:before {
+    content: "ξ –ω–)ξ ";
+    margin-right: 3px;
+}
+
+em.kawaii {
+    background-color: pink;
+    font-style: normal;
+    padding: 1px 7px;
+    border-radius: 4px;
 }
