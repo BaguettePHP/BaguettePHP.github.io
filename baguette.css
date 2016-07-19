@@ -51,3 +51,8 @@ em.kawaii {
     padding: 1px 7px;
     border-radius: 4px;
 }
+
+dd code {
+    color: inherit;
+    background-color: inherit;
+}
